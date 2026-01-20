@@ -49,49 +49,49 @@
 
 
 
-let nombre = prompt("como te llamas")
+// let nombre = prompt("como te llamas")
 
-alert("hola "+nombre)
+// alert("hola "+nombre)
 
-let saldo = 10000
+// let saldo = 10000
 
-function bienvenida(){
-    console.log("bienvenido a su cuenta "+nombre)
-}
+// function bienvenida(){
+//     console.log("bienvenido a su cuenta "+nombre)
+// }
 
-bienvenida()
+// bienvenida()
 
-let clave = prompt("ingrese la contraseña")
+// let clave = prompt("ingrese la contraseña")
 
-const contraseña = "123"
+// const contraseña = "123"
 
-if(clave === contraseña){
-    alert("bienvenido "+nombre);
+// if(clave === contraseña){
+//     alert("bienvenido "+nombre);
 
-} else {
-    prompt("contraseña incorrecta intente otra vez")
-} 
+// } else {
+//     prompt("contraseña incorrecta intente otra vez")
+// } 
 
-let retira = prompt("cuanto queres retirar")
+// let retira = prompt("cuanto queres retirar")
 
-if(retira <= saldo){
-    confirm("aqui esta su dinero")
-}else if(retira > saldo){
-    prompt("no tenes saldo suficiente intente otra vez")
-}else{
-    prompt("lo siento, intente otra vez")
-}
+// if(retira <= saldo){
+//     confirm("aqui esta su dinero")
+// }else if(retira > saldo){
+//     prompt("no tenes saldo suficiente intente otra vez")
+// }else{
+//     prompt("lo siento, intente otra vez")
+// }
 
-let transferir = ["pablo", "micaela", "roberto", "axel"]
+// let transferir = ["pablo", "micaela", "roberto", "axel"]
 
-let pregunta = prompt("a quien queres transferirle")
+// let pregunta = prompt("a quien queres transferirle")
 
-if(pregunta == transferir[0]){
-    console.log("operacion exitosa")
-}else if(pregunta == transferir[1]){
-    console.log("lo siento no es posible realizar esta accion ahora ")
-}else{
-    console.log("esta persona no tiene una cuenta registrada")
-}
+// if(pregunta == transferir[0]){
+//     console.log("operacion exitosa")
+// }else if(pregunta == transferir[1]){
+//     console.log("lo siento no es posible realizar esta accion ahora ")
+// }else{
+//     console.log("esta persona no tiene una cuenta registrada")
+// }
 
 
