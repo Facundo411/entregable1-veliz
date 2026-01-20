@@ -48,6 +48,7 @@
 // }
 
 
+
 let nombre = prompt("como te llamas")
 
 alert("hola "+nombre)
@@ -75,8 +76,10 @@ let retira = prompt("cuanto queres retirar")
 
 if(retira <= saldo){
     confirm("aqui esta su dinero")
+}else if(retira > saldo){
+    prompt("no tenes saldo suficiente intente otra vez")
 }else{
-    confirm("no tenes saldo suficiente")
+    prompt("lo siento, intente otra vez")
 }
 
 let transferir = ["pablo", "micaela", "roberto", "axel"]
@@ -90,3 +93,5 @@ if(pregunta == transferir[0]){
 }else{
     console.log("esta persona no tiene una cuenta registrada")
 }
+
+

@@ -1,0 +1,27 @@
+/* --------------RESET---------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+h1{
+    margin: 20px;
+    text-align: center;
+}
+
+h2{
+    margin: 40px;
+}
+
+.necesita{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+}
