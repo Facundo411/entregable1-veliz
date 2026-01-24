@@ -25,3 +25,12 @@ h2{
     flex-wrap: wrap;
     padding: 40px;
 }
+
+ div input{
+    height: 20px;
+    width: 300px;
+}
+
+.input{
+    margin: 50px;
+}
